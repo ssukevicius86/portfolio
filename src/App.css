@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "vmb";
+  src: local("vmb"),
+   url("./assets/fonts/VictorMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "vmr";
+    src: local("vmr"),
+     url("./assets/fonts/VictorMono-Regular.ttf") format("truetype");
+    font-weight: regular;
+    }
+
+
+/* se aplica a TODA la pagina*/
+*{
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: "vmr" , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App{
+  width: 100vw;
+  
+}
+
+

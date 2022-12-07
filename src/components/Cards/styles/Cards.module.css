@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  gap: 30px;
+  padding: 16px;
+}
+
+.cards {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.nombre {
+  display: flex;
+  font-size: 12px;
+  color: #fff;
+}
+
+.parrafo {
+  display: flex;
+  font-size: 12px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}

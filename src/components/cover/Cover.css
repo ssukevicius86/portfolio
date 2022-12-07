@@ -1,0 +1,31 @@
+.cover-container {
+    height: 100vh ;
+    width: 100%;
+    /* para que tenga siempre el mismo ancho */
+    object-fit: contain;
+    /*para que tenga opacidad*/
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-container> h1 {
+    color: aquamarine;
+    font-size: 100px;
+}
+
+.cover-container > p {
+    margin-top: 8px;
+    color: aliceblue;
+    font-size: 32px;
+}
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
