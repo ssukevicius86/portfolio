@@ -1,0 +1,67 @@
+.academicos {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+.academicos header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.academicos .body {
+  /* background-color: green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.titulos {
+  margin: 2rem;
+  width: 20rem;
+  height: 30rem;
+  background-color: #037bc0;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.textoTitulos {
+  background-color: #8cbc00;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 900;
+  padding: 1rem;
+  transition: background-color 0.3s ease-out;
+}
+
+.body article {
+  background-color: #037bc0;
+  width: 20rem;
+  height: 30rem;
+}
+
+.titulos img {
+  width: 100%;
+  height: 20rem;
+  display: block;
+  object-fit: cover;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
