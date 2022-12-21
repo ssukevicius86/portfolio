@@ -1,9 +1,17 @@
-.container {
+.containerCards {
   display: flex;
+  background-color: black;
+  width: 100%;
+  height: fit-content;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.container {
+  display: flex;
   background-color: black;
+  margin: 2rem 0 2rem 0;
 }
 
 .title {
@@ -25,13 +33,13 @@
   flex-wrap: wrap;
   align-items: stretch;
   align-content: center;
+  background-color: black;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .card img {
@@ -39,6 +47,11 @@
   height: 150px;
   object-fit: cover;
   border-radius: 1rem;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .nombre {
