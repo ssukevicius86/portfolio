@@ -27,7 +27,7 @@ const Academicos = () => {
           <div>
             <h2>Sobre mis logros...</h2>
             <article>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Loremso, ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur laudantium magnam, quas ullam similique expedita illum
               debitis? Ullam odio expedita optio, pariatur ipsum eaque aperiam
               at molestiae, provident harum dolor.
