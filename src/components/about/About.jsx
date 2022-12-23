@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="about-desc">
-        <h3>Algo sobre mi...</h3>
+        <h2>Algo sobre mi...</h2>
         <p>
           Soy arquitecta recibida en la facultad de La Plata en el 2015, luego
           realice el Tramo pedagogico para dar clases en colegios tecnicos.

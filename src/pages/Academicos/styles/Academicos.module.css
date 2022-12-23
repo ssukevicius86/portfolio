@@ -9,13 +9,25 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  background-color: black;
   height: 100%;
   width: 100%;
 }
 
+.tituloAcademico h3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  height: 4rem;
+  width: 100%;
+}
+
 .academicos .body {
-  /* background-color: green; */
   width: 100%;
   height: 100%;
   padding: 2rem;
@@ -26,38 +38,48 @@
   align-items: center;
 }
 
-h3 {
-  font-size: 2rem;
-  color: white;
-}
-
 .titulos {
-  margin: 2rem;
-  width: 20rem;
-  height: 30rem;
+  margin: 1rem;
+  width: 30rem;
+  height: fit-content;
   background-color: #037bc0;
   border-radius: 2rem;
   overflow: hidden;
 }
-
-.textoTitulos {
-  background-color: #8cbc00;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 900;
-  padding: 1rem;
-  transition: background-color 0.3s ease-out;
+.titulos h3 {
+  padding: 1rem 1rem 1rem 0.5rem;
+  margin: 0;
 }
 
-.body article {
+.titulos p {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0;
+}
+
+.titulos h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.body aside {
   background-color: black;
   width: 20rem;
-  height: 30rem;
+  height: fit-content;
   border-radius: 2rem;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+aside h2 {
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  font-size: 1.2rem;
 }
 
 .body h2 {
@@ -71,4 +93,8 @@ h3 {
   object-fit: cover;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+}
+
+aside li {
+  margin-bottom: 2rem;
 }
