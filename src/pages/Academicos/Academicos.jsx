@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import { CoverAcademicos, Navbar } from "../../components";
 // import academicosImg from "../../Media/academicosImg.jpg";
 import styles from "./styles/Academicos.module.css";
-import img3 from "../../assets/images/imagen3.jpg";
+import Arquitectura from "../../assets/images/historia academica Arquitectura.png";
+import Tecnica from "../../assets/images/instituto.png";
+import sanJose from "../../assets/images/san jose.png";
+import pdfartes from "../../assets/images/historia_academica.pdf";
 
 const Academicos = () => {
   const [scrollHeight, setScrolHeight] = useState(0);
@@ -49,51 +52,46 @@ const Academicos = () => {
             </aside>
           </div>
           <div className={styles.titulos}>
-            <img src={img3} alt="titulo secundario" />
-            <div className="{styles.textoTitulos}">
+            <img src={sanJose} alt="titulo secundario" />
+            <div className={styles.textoTitulos}>
               <h3>Titulo secundario</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-                maxime aspernatur explicabo ipsa, alias mollitia distinctio,
-                enim quidem ad possimus, earum voluptate placeat minima atque
-                perspiciatis quaerat voluptates. Laboriosam, cum.
-              </p>
+              <p>BACHILLER EN CIENCIAS SOCIALES Y HUMANIDADES</p>
+              <a href={pdfartes}>Mas</a>
             </div>
           </div>
           <div className={styles.titulos}>
-            <img src={img3} alt="titulo secundario" />
-            <div className="{styles.textoTitulos}">
-              <h3>Titulo secundario</h3>
+            <img src={Arquitectura} alt="titulo secundario" />
+            <div className={styles.textoTitulos}>
+              <h3>Titulo Universitario</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-                maxime aspernatur explicabo ipsa, alias mollitia distinctio,
-                enim quidem ad possimus, earum voluptate placeat minima atque
-                perspiciatis quaerat voluptates. Laboriosam, cum.
+                Arquitecta Urbanista titulo otorgado por la Facultad de
+                Arquitectura de la universidad de la Plata
               </p>
+              <a href={pdfartes}>Mas</a>
             </div>
           </div>
           <div className={styles.titulos}>
-            <img src={img3} alt="titulo secundario" />
-            <div className="{styles.textoTitulos}">
-              <h3>Titulo secundario</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-                maxime aspernatur explicabo ipsa, alias mollitia distinctio,
-                enim quidem ad possimus, earum voluptate placeat minima atque
-                perspiciatis quaerat voluptates. Laboriosam, cum.
-              </p>
+            <img src={Tecnica} alt="titulo secundario" />
+            <div className={styles.textoTitulos}>
+              <h3>TRAMO DE FORMACIÓN PEDAGÓGICA </h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <a href={pdfartes}>Mas</a>
             </div>
           </div>
           <div className={styles.titulos}>
-            <img src={img3} alt="titulo secundario" />
-            <div className="{styles.textoTitulos}">
-              <h3>Titulo secundario</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-                maxime aspernatur explicabo ipsa, alias mollitia distinctio,
-                enim quidem ad possimus, earum voluptate placeat minima atque
-                perspiciatis quaerat voluptates. Laboriosam, cum.
-              </p>
+            <img src={sanJose} alt="titulo secundario" />
+            <div className={styles.textoTitulos}>
+              <h3>TECNICATURA SUPERIOR EN ANALISIS DE SISTEMAS</h3>
+              <p>En curso, 65% de la carrera realizada</p>
+              <a href={pdfartes}>Mas</a>
+            </div>
+          </div>
+          <div className={styles.titulos}>
+            <img src={sanJose} alt="titulo secundario" />
+            <div className={styles.textoTitulos}>
+              <h3>TECNICATURA SUPERIOR EN ANALISIS DE SISTEMAS</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur</p>
+              <a href={pdfartes}>Mas</a>
             </div>
           </div>
         </div>
